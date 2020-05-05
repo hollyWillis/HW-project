@@ -54,9 +54,9 @@
       You could recieve weekly and monthly newsletters, as well as special editions if we spot a good baking equipment sale or extra recipes around a holiday, for example.
     </div>
 
-    <form action="" class="signUpContainer">
+    <form id="signUpForm" class="signUpContainer" onSubmit="myFunction()"> 
       <label for="firstName">First Name</label>
-      <input type="text" id="firstName" name="firstName" required/>
+      <input type="text" id="firstName" name="firstName" autofocus required/>
       <label for="lastName">Last Name</label>
       <input type="text" id="lastName" name="lastName"/>
       <label for="email">Email</label>
@@ -68,7 +68,7 @@
         <label for="extra"><input type="checkbox" id="extra" />Extra News</label>
       </div>
   
-      <input type="submit" class="submit">
+      <input type="submit" class="submit" value="Sign Up!" >
     </form>
 
   </div>
