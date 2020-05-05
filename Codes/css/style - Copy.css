@@ -1,0 +1,25 @@
+*{font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif}
+body{padding: 10%}
+
+li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.navbar{
+  padding-left: 10%;  
+  padding-right: 10%;
+} 
+
+.navbar-nav{
+  align-items: center;
+}
+
+.flexPic1{
+  float: left;
+}
+
+.flexPic2{
+  float: right;
+}
